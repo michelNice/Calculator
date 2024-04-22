@@ -1,4 +1,4 @@
-const calculator = {
+/*const calculator = {
     displayValue:'0',
     firstOperand:null,
     waitingForOperand:false,
@@ -120,3 +120,4 @@ keys.addEventListener('click',function(event){
     inputDigit(target.value)
     updateDisplay()
 })
+*/
