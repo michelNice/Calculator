@@ -1,4 +1,4 @@
-/*const calculator = {
+const calculator = {
     displayValue:'0',
     firstOperand:null,
     waitingForOperand:false,
@@ -6,14 +6,13 @@
 }
 
 function resetCalculator(){
-    calculator.displayValue = '0',
-    calculator.firstOperand = null
+    calculator.displayValue = '0'
+    calculator.firstOperand = false,
     calculator.waitingForOperand = false
     calculator.operator = null
 }
 
 function updateDisplay(){
-
     const display = document.querySelector('.calculator-screen')
 
     display.value = calculator.displayValue
@@ -36,6 +35,7 @@ function inputDigit(digit){
     }
 
 }
+
 
 function inputDecimal(dot){
 
@@ -120,4 +120,3 @@ keys.addEventListener('click',function(event){
     inputDigit(target.value)
     updateDisplay()
 })
-*/
